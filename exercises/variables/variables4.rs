@@ -3,8 +3,8 @@
 
 
 fn main() {
-    let x: i32 = 10;
-    let x = 3;
+    let mut x: i32;
+    x = 3;
     println!("Number {}", x);
     x = 5; // don't change this line
     println!("Number {}", x);
