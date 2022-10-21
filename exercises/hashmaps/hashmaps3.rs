@@ -14,6 +14,8 @@
 
 // Execute `rustlings hint hashmaps3` or use the `hint` watch subcommand for a hint.
 
+// https://doc.rust-lang.org/stable/std/collections/hash_map/enum.Entry.html
+
 
 use std::collections::HashMap;
 
@@ -39,7 +41,7 @@ fn build_scores_table(results: String) -> HashMap<String, Team> {
         // will be number of goals conceded from team_2, and similarly
         // goals scored by team_2 will be the number of goals conceded by
         // team_1.
-            
+
         // entry expects "String" not &String
         scores.entry(team_1_name.clone())
                 .and_modify(|t| {
