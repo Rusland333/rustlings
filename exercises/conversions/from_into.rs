@@ -41,6 +41,8 @@ impl From<&str> for Person {
     fn from(s: &str) -> Person {
         if s == "" {
             Person::default()
+        } else {
+            s.split(",").map(|x| x.into()).collect::<Vec<String>>().into()
         }
     }
 }
