@@ -39,6 +39,9 @@ impl Default for Person {
 
 impl From<&str> for Person {
     fn from(s: &str) -> Person {
+        if s == "" {
+            Person::default()
+        }
     }
 }
 
