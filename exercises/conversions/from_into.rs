@@ -38,7 +38,7 @@ impl Default for Person {
 // XI AM NOT DONE
 
 impl From<&str> for Person {
-    fn from(s: &str) -> Person {
+    fn from(s: &str) -> Self {
         if s == "" {
             Person::default()
         } else {
