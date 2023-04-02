@@ -164,4 +164,6 @@ if you have ideas or suggestions!
 
 Thanks goes to the wonderful people listed in [AUTHORS.md](./AUTHORS.md) 🎉
 
-Да ну нах
+Да ну нах 
+
+Это просто тренировка
